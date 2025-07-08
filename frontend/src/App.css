@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  text-align: left;
+}
+.risk-feed-panel {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  height: 100vh;
+  overflow-y: auto;
+}
+.map-panel {
+  width: 70%;
+}
+.risk-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.risk-item:hover {
+  background-color: #e9e9e9;
+}
+
+.risk-item p {
+  margin: 5px 0 0 0;
+  font-size: 0.8em;
+  color: #555;
+}
